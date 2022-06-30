@@ -18,6 +18,8 @@ class SessionsController < ApplicationController
 	end
 
 	def home
+		require File.join(Rails.root, 'parseJson.rb');
 
+		$recipes = read_recipes
 	end
 end

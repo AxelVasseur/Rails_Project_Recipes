@@ -1,1 +1,31 @@
 <h1>Bienvenue dans ton frigo, <%=current_user.firstname %> <%=current_user.lastname %> !</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>name</th>
+			<th>author</th>
+			<th>budget</th>
+			<th>difficulty</th>
+			<th>prep_time</th>
+			<th>cook_time</th>
+			<th>total_time</th>
+			<th>rate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% $recipes.each do |recipe| %>
+			<tr>
+				<td><%= recipe['name'] %></td>
+				<td><%= recipe['author'] %></td>
+				<td><%= recipe['budget'] %></td>
+				<td><%= recipe['difficulty'] %></td>
+				<td><%= recipe['prep_time'] %></td>
+				<td><%= recipe['cook_time'] %></td>
+				<td><%= recipe['total_time'] %></td>
+				<td><%= recipe['rate'] %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+<p><%= $recipes %></p>
