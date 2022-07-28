@@ -1,3 +1,18 @@
+# MÀJ DU 28/07/2022 - Ajout du courriel de contexte envoyé avec le rendu de ce projet
+> [...]
+> Notre groupe est composé de Axel VASSEUR et Camille BORRA, en 3e année IW1.
+>
+> Nous n'avons pas réussi à aller au bout du projet numéro 1, celui du 
+> frigo, ni a le mettre sur Heroku. Cependant, vous pouvez cloner le 
+> dépôt, effectuer les migrations et à l'adresse :
+>
+> <ins>http://localhost:3000</ins>
+> 
+> accéder à la page de connexion, de laquelle vous pourrez créer un 
+> utilisateur, puis vous connecter et découvrir une liste de plusieurs 
+> recettes lues depuis le fichier json.
+> [...]
+
 # README
 L'objectif est de réaliser une application Ruby on Rails par équipe de 2 ou 3.
 
